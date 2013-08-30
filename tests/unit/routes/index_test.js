@@ -15,5 +15,5 @@ test("it exists", function(){
 });
 
 test("#model", function(){
-  deepEqual(route.model(), ['red', 'yellow', 'blue']);
+  deepEqual(route.model(), ['Visit New Zealand', 'Relax', 'Skip Australia']);
 });
