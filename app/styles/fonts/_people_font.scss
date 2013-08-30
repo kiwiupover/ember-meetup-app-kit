@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'people';
+  src:font-url('people.eot');
+  src:font-url('people.eot?#iefix') format('embedded-opentype'),
+    font-url('people.woff') format('woff'),
+    font-url('people.ttf') format('truetype'),
+    font-url('people.svg#people') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'people';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-six, .icon-four, .icon-three, .icon-two {
+  font-family: 'people';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-six:before {
+  content: "\36";
+}
+.icon-four:before {
+  content: "\34";
+}
+.icon-three:before {
+  content: "\33";
+}
+.icon-two:before {
+  content: "\32";
+}

@@ -1,0 +1,45 @@
+.bookings {
+  background: white;
+  padding: 20px;
+  border-radius: 3px;
+  h3 {
+    font-weight: 100;
+  }
+  label.error {
+    @extend small.error;
+  }
+  .pickup-location {
+    position: relative;
+    margin-bottom: 15px;
+    label {
+      position: absolute;
+      bottom: -15px;
+      width: 90.6%;
+    }
+  }
+}
+
+.page {
+  @include grid-row;
+  padding: 20px;
+  background: #25a0d9;
+  h2, h4 {
+    color: white;
+    small {
+      color: white;
+    }
+  }
+  .result {
+    @include grid-row;
+    margin-bottom: emCalc(10px);
+    padding: emCalc(20px);
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px darken(#27a0d7, 10%);
+  }
+}
+
+.people {
+  font-size: emCalc(60px);
+  color: brown;
+}
