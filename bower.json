@@ -5,6 +5,9 @@
     "ember-prod": "http://builds.emberjs.com/latest/ember.prod.js",
     "handlebars": "1.0.0",
     "jquery": "~1.9.1",
-    "qunit": "~1.12.0"
+    "qunit": "~1.12.0",
+    "foundation": "~4.3.1",
+    "momentjs": "~0",
+    "epf-shim": "~0"
   }
 }
